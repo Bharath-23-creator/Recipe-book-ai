@@ -1,0 +1,27 @@
+:root {
+  --primary: #2C687B;
+  --primary-dark: #214f5e;
+  --cream: #f4f8f9;
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--cream);
+  color: var(--text);
+}
+
+.error-msg {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
